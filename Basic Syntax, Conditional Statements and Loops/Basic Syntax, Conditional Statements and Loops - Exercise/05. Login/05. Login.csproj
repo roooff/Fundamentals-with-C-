@@ -6,4 +6,8 @@
     <RootNamespace>_05._Login</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="PackageRestore" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>

@@ -6,4 +6,12 @@
     <RootNamespace>_09._Padawan_Equipment</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PackageRestore" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>

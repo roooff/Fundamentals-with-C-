@@ -6,4 +6,8 @@
     <RootNamespace>_02._Division</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="PackageRestore" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>

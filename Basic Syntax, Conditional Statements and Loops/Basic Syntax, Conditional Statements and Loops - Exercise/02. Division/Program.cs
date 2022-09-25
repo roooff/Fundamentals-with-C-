@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace _02._Division
+﻿namespace _02._Division
 {
+    using System;
     internal class Program
     {
         static void Main(string[] args)

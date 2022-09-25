@@ -6,4 +6,8 @@
     <RootNamespace>_08._Triangle_of_Numbers</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="PackageRestore" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>

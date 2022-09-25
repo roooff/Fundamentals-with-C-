@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace _0._1_Ages
+﻿namespace _0._1_Ages
 {
+    using System;
     internal class Program
     {
         static void Main(string[] args)

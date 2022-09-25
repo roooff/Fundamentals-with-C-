@@ -6,4 +6,8 @@
     <RootNamespace>_0._1_Ages</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="PackageRestore" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>
