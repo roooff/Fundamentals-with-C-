@@ -6,7 +6,7 @@ namespace _09._Padawan_Equipment
     {
         static void Main(string[] args)
         {
-            
+            uint money = uint.Parse(Console.ReadLine());
         }
     }
 }
