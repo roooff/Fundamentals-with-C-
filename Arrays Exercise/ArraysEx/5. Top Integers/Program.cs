@@ -1,37 +1,36 @@
 ﻿namespace _5._Top_Integers
 {
-using System;
+    using System;
     using System.Linq;
 
-namespace _5._Top_Integers
-{
-    internal class Program
+    namespace _5._Top_Integers
     {
-        static void Main(string[] args)
+        internal class Program
         {
-            int[] numbers = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-            for (int i = 0; i < numbers.Length; i++)
+            private static void Main(string[] args)
             {
-                int currentNum = numbers[i];
-                // Pass trouhgh all num to its right
-                bool isTopIntegerer = true;
-                for (int j = i+1; j < numbers.Length; j++)
+                int[] numbers = Console.ReadLine()
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToArray();
+                for (int i = 0; i < numbers.Length; i++)
                 {
-                    int nextNum = numbers[j];
-                    if (nextNum >= currentNum)
+                    int currentNum = numbers[i];
+                    // Pass trouhgh all num to its right
+                    bool isTopIntegerer = true;
+                    for (int j = i + 1; j < numbers.Length; j++)
                     {
-                        isTopIntegerer = false;break;
+                        int nextNum = numbers[j];
+                        if (nextNum >= currentNum)
+                        {
+                            isTopIntegerer = false; break;
+                        }
+                    }
+                    if (isTopIntegerer)
+                    {
+                        Console.Write(currentNum + " ");
                     }
                 }
-                if (isTopIntegerer)
-                {
-                    Console.Write(currentNum +" ");
-                }
-
             }
         }
     }
-}

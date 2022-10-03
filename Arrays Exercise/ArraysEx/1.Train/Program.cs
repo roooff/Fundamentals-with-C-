@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using System;
+﻿using System;
 
 namespace _1.Train
 {

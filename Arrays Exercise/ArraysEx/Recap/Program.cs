@@ -1,24 +1,23 @@
 ﻿using System;
 using System.Linq;
-using System.Threading.Channels;
 
 namespace Recap
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
             int[] numbers = new int[n];
             //1. Print array direct -> Print type of the variable
             // Benefit -> know the index of each element , reverse reading
-            Console.WriteLine(String.Join(" " ,numbers));
-            //name of the collecttion  
+            Console.WriteLine(String.Join(" ", numbers));
+            //name of the collecttion
             //
             //
             //
             //
-            // 2. Printing array direct -> type of varibale 
+            // 2. Printing array direct -> type of varibale
 
             for (int i = 0; i < numbers.Length; i++)
             {
@@ -31,7 +30,7 @@ namespace Recap
             //
             //
             // 3.Printing array direct -> type of varibale a
-            // Benefit -> less code , easy to use 
+            // Benefit -> less code , easy to use
             ///
             //
             //
@@ -45,12 +44,12 @@ namespace Recap
             ///
             //
 
-            for (int i = numbers.Length-1; i >= 0; i--)
+            for (int i = numbers.Length - 1; i >= 0; i--)
             {
                 int currnum = numbers[i];
                 Console.WriteLine($" Index {i} -> {currnum}");
             }
-            //2. Reverse reading using for 
+            //2. Reverse reading using for
             //
             //
             ///
@@ -83,7 +82,7 @@ namespace Recap
             for (int i = 0; i < numbers.Length; i++)
             {
                 int currNum = numbers[i];
-                 arrCopy[i] = currNum;
+                arrCopy[i] = currNum;
             }
             Console.WriteLine(String.Join(" ", arrCopy));
             //2.  Alternative
