@@ -1,8 +1,10 @@
 ﻿namespace _3._Zig_Zag_Arrays
 {
-    using System;
+using System;
     using System.Linq;
 
+namespace _3._Zig_Zag_Arrays
+{
     internal class Program
     {
         static void Main(string[] args)

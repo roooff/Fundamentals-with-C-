@@ -1,4 +1,6 @@
-﻿namespace _4._Array_Rotation
+﻿using System;
+
+namespace _4._Array_Rotation
 {
     using System;
     using System.Linq;
