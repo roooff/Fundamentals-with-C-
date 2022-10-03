@@ -1,4 +1,6 @@
-﻿namespace _10._LadyBugs
+﻿using System;
+
+namespace _10._LadyBugs
 {
     using System;
     using System.Linq;

@@ -1,8 +1,10 @@
 ﻿namespace _5._Top_Integers
 {
-    using System;
+using System;
     using System.Linq;
 
+namespace _5._Top_Integers
+{
     internal class Program
     {
         static void Main(string[] args)
