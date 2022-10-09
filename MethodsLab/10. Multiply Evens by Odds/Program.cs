@@ -23,6 +23,7 @@ namespace _10._Multiply_Evens_by_Odds
                 if (currNumber % 2 != 0)
                 {
                     sum += currNumber;
+                    
                 }
             }
             return sum;
