@@ -25,27 +25,25 @@ namespace Recap
                 {
                     wagons.Add(int.Parse(cmdArgs[1]));
                 }
-
                 else if (cmdArgs[0] != "Add")
                 {
                     for (int i = 0; i < wagons.Count; i++)
                     {
                         int num = int.Parse(cmdArgs[0]);
                         int allSum = num + wagons[i];
-                        if (allSum>maxCap)
+                        if (allSum > maxCap)
                         {
                             continue;
                         }
-                        else if (allSum<=maxCap)
+                        else if (allSum <= maxCap)
                         {
                             wagons.RemoveAt(i);
-                            wagons.Insert(i,allSum);
+                            wagons.Insert(i, allSum);
                         }
-
                     }
                 }
             }
-            Console.WriteLine(string.Join(" ",wagons));
+            Console.WriteLine(string.Join(" ", wagons));
         }
     }
 }
