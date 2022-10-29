@@ -21,7 +21,6 @@
             {
                 Console.Write($"{numbers[i]} ");
             }
-            Console.ReadKey();
         }
     }
 }
