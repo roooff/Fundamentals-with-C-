@@ -12,7 +12,7 @@
                 = new Dictionary<string,List<string>>();
 
             int n = int.Parse(Console.ReadLine());
-            for (int i = n; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                 string word = Console.ReadLine();
                 string synonym = Console.ReadLine();
