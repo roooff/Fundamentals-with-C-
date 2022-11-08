@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Recap
 {
@@ -6,7 +7,8 @@ namespace Recap
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dictionary<string, int> phone = new Dictionary<string, int>();
+          
         }
     }
 }
