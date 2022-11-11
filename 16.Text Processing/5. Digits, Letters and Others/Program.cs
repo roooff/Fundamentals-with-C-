@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Text;
 
 namespace _5._Digits__Letters_and_Others
 {
@@ -6,7 +8,16 @@ namespace _5._Digits__Letters_and_Others
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            char[] input = Console.ReadLine().ToCharArray();
+
+            char[] digits = input.Where(x => char.IsDigit(x)).ToArray();
+            char[] letters = input.Where(x => char.IsLetter(x)).ToArray();
+            char[] symbols = input.Where(x => !char.IsLetterOrDigit(x)).ToArray();
+
+            Console.WriteLine(digits);
+            Console.WriteLine(letters);
+            Console.WriteLine(symbols);
+
         }
     }
 }
