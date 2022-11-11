@@ -5,13 +5,13 @@
 
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            //Course name 
+            //Course name
             // Key-> Value
             Dictionary<string, List<string>> coursesInfo = new Dictionary<string, List<string>>();
             string commnad;
-            while ((commnad= Console.ReadLine()) !="end")
+            while ((commnad = Console.ReadLine()) != "end")
             {
                 string[] cmdArgs = commnad.Split(" : ", StringSplitOptions.RemoveEmptyEntries);
                 string courseName = cmdArgs[0];
@@ -23,19 +23,17 @@
                 }
                 coursesInfo[courseName].Add(studentName);
             }
-            foreach ( var kvp in coursesInfo)
+            foreach (var kvp in coursesInfo)
             {
                 string courseName = kvp.Key;
                 List<string> students = kvp.Value;
 
                 Console.WriteLine($"{courseName}: {students.Count}");
-                foreach (string studentName  in students)
+                foreach (string studentName in students)
                 {
                     Console.WriteLine($"-- {studentName}");
                 }
-
             }
-
         }
     }
 }

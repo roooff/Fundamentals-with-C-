@@ -6,7 +6,7 @@
 
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Dictionary<string, Product> products = GetInfo();
             Dictionary<string, decimal> orders = new Dictionary<string, decimal>();
@@ -22,8 +22,8 @@
                 Console.WriteLine($"{item.Key} -> {item.Value:f2}");
             }
         }
-            
-        class Product
+
+        private class Product
         {
             public Product(string name, decimal price, int quantity)
             {
@@ -31,6 +31,7 @@
                 this.Price = price;
                 this.Quantity = quantity;
             }
+
             public string Name { get; set; }
 
             public decimal Price { get; set; }
@@ -44,39 +45,36 @@
             }
         }
 
-            private static Dictionary<string, Product> GetInfo()
+        private static Dictionary<string, Product> GetInfo()
+        {
+            Dictionary<string, Product> products = new Dictionary<string, Product>();
+
+            string line = Console.ReadLine();
+            while (line != "buy")
             {
-                Dictionary<string, Product> products = new Dictionary<string, Product>();
+                string[] tokens = line.Split(" ");
 
-                string line = Console.ReadLine();
-                while (line != "buy")
+                string name = tokens[0];
+                decimal price = decimal.Parse(tokens[1]);
+                int quantity = int.Parse(tokens[2]);
+
+                Product product = new Product(name, price, quantity);
+                if (!products.ContainsKey(name))
                 {
-                    string[] tokens = line.Split(" ");
-
-                    string name = tokens[0];
-                    decimal price = decimal.Parse(tokens[1]);
-                    int quantity = int.Parse(tokens[2]);
-
-                    Product product = new Product(name, price, quantity);
-                    if (!products.ContainsKey(name))
-                    {
-                        products.Add(name, product);
-                    }
-                    else
-                    {
-                        foreach (var item in products.Where(t => t.Key == name))
-                        {
-                            item.Value.Price = price;
-                            item.Value.Quantity += quantity;
-                        }
-                    }
-
-                    line = Console.ReadLine();
+                    products.Add(name, product);
                 }
-                return products;
+                else
+                {
+                    foreach (var item in products.Where(t => t.Key == name))
+                    {
+                        item.Value.Price = price;
+                        item.Value.Quantity += quantity;
+                    }
+                }
+
+                line = Console.ReadLine();
             }
+            return products;
         }
     }
-
-    
-
+}

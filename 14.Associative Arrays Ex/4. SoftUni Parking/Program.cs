@@ -5,9 +5,9 @@
 
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Dictionary<string,string> register = new Dictionary<string,string>();  
+            Dictionary<string, string> register = new Dictionary<string, string>();
             int n = int.Parse(Console.ReadLine());
             for (int i = 0; i < n; i++)
             {
@@ -15,7 +15,7 @@
                     .Split(" ", StringSplitOptions.RemoveEmptyEntries);
                 string cmdType = cmdArgs[0];
                 string username = cmdArgs[1];
-                if (cmdType=="register")
+                if (cmdType == "register")
                 {
                     string licenseNumber = cmdArgs[2];
                     if (!register.ContainsKey(username))
@@ -28,9 +28,8 @@
                         string registeredNumber = register[username];
                         Console.WriteLine($"ERROR: already registered with plate number {registeredNumber}");
                     }
-
                 }
-                else if (cmdType=="unregister")
+                else if (cmdType == "unregister")
                 {
                     if (!register.ContainsKey(username))
                     {
