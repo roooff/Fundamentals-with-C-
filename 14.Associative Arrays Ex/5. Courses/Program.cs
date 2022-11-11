@@ -1,4 +1,4 @@
-﻿namespace _1._Count_Chars_in_a_String
+﻿namespace _5._Courses
 {
     using System;
     internal class Program
