@@ -5,7 +5,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] bannedword = Console.ReadLine()
+                .Split(", ");
+            string text = Console.ReadLine();
+            foreach (var item in bannedword )
+            {
+                text = text.Replace(item,
+                    new string('*', item.Length));
+            }
         }
     }
 }
