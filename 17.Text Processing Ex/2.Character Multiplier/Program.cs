@@ -1,13 +1,14 @@
 ﻿namespace _2.Character_Multiplier
 {
     using System;
+
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             /// Step 1. Converting string input into a string Array
             /// Step 2. Creating a method that takes parameters
-            /// Stwp 3. Creating an integer containing the sum 
+            /// Stwp 3. Creating an integer containing the sum
             /// Adding otheer problems essentials
             /// Ebal sym wa w guza sichkite
             /// ishto nqma da opisnwam she obiq nakov toq za kakyw se ima
@@ -28,19 +29,17 @@
             for (int i = 0; i < minLength; i++)
             {
                 sum += v1[i] * v2[i];
-                
             }
             string longestLenghtString = v1;
-            if (longestLenghtString.Length<v2.Length)
+            if (longestLenghtString.Length < v2.Length)
             {
                 longestLenghtString = v2;
             }
-            for (int i = minLength; i <longestLenghtString.Length; i++)
+            for (int i = minLength; i < longestLenghtString.Length; i++)
             {
                 sum += longestLenghtString[i];
             }
             Console.WriteLine(sum);
         }
-
     }
 }

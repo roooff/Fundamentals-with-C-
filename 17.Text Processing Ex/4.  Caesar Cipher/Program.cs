@@ -1,9 +1,10 @@
 ﻿namespace _4.__Caesar_Cipher
 {
     using System;
+
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             string input = Console.ReadLine();
             string encryptedString = string.Empty;
@@ -14,7 +15,6 @@
                 encryptedString += (char)currPosition;
             }
             Console.WriteLine(encryptedString);
-
         }
     }
 }
