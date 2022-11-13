@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.  Valid Usernames", "1.  
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Character Multiplier", "2.Character Multiplier\2.Character Multiplier.csproj", "{1DEB55FD-B9A4-4FA9-B13D-D3701C7B5040}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.  Extract File", "3.  Extract File\3.  Extract File.csproj", "{F8A3F568-E280-4673-9B0E-EC11691DF785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.  Caesar Cipher", "4.  Caesar Cipher\4.  Caesar Cipher.csproj", "{B786B6CE-8903-402C-A823-F73C1888CECB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1DEB55FD-B9A4-4FA9-B13D-D3701C7B5040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DEB55FD-B9A4-4FA9-B13D-D3701C7B5040}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DEB55FD-B9A4-4FA9-B13D-D3701C7B5040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A3F568-E280-4673-9B0E-EC11691DF785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A3F568-E280-4673-9B0E-EC11691DF785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A3F568-E280-4673-9B0E-EC11691DF785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A3F568-E280-4673-9B0E-EC11691DF785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B786B6CE-8903-402C-A823-F73C1888CECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B786B6CE-8903-402C-A823-F73C1888CECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B786B6CE-8903-402C-A823-F73C1888CECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B786B6CE-8903-402C-A823-F73C1888CECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
