@@ -1,4 +1,4 @@
-﻿namespace _4.__Caesar_Cipher
+﻿namespace _6.__Replace_Repeating_Chars
 {
     using System;
     internal class Program

@@ -1,4 +1,4 @@
-﻿namespace _4.__Caesar_Cipher
+﻿namespace _7.__String_Explosion
 {
     using System;
     internal class Program
