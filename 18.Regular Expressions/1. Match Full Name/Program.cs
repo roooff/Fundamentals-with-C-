@@ -7,11 +7,14 @@
     {
         private static void Main(string[] args)
         {
-            string pattern = @"w+";
-            var input = "Raffy";
-            var regex = new Regex(pattern);
-            bool isMatch = regex.IsMatch(input);
-            Console.WriteLine(isMatch);
+            string pattern = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b";
+            string input = Console.ReadLine();
+            Regex regex = new Regex(pattern);
+            MatchCollection matchCollection = regex.Matches(input);
+            foreach (Match item in matchCollection)
+            {
+                Console.Write(item.Value + " ");
+            }
         }
     }
 }
