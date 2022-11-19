@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace _5._Nether_Realms
+﻿namespace _5._Nether_Realms
 {
+    using System;
+
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }

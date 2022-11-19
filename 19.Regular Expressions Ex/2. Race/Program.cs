@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace _2._Race
+﻿namespace _2._Race
 {
+    using System;
+
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }

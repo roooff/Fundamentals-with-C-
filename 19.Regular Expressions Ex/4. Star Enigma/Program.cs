@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace _4._Star_Enigma
+﻿namespace _4._Star_Enigma
 {
+    using System;
+
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }

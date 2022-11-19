@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace _6._Extract_Emails
+﻿namespace _6._Extract_Emails
 {
+    using System;
+
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
