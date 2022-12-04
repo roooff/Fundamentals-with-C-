@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Decrypting Commands", "1. Decrypting Commands\1. Decrypting Commands.csproj", "{BAD3D9AE-50BB-40EF-9109-B794F2695A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Boss Rush", "2.Boss Rush\2.Boss Rush.csproj", "{510F0936-56DB-469D-976A-B1EA016B10E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD3D9AE-50BB-40EF-9109-B794F2695A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD3D9AE-50BB-40EF-9109-B794F2695A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD3D9AE-50BB-40EF-9109-B794F2695A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD3D9AE-50BB-40EF-9109-B794F2695A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510F0936-56DB-469D-976A-B1EA016B10E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510F0936-56DB-469D-976A-B1EA016B10E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510F0936-56DB-469D-976A-B1EA016B10E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510F0936-56DB-469D-976A-B1EA016B10E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFAF2239-7629-4CCE-9360-1289F63704F7}
+	EndGlobalSection
+EndGlobal
