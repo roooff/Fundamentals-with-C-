@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Decrypting Commands", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Boss Rush", "2.Boss Rush\2.Boss Rush.csproj", "{510F0936-56DB-469D-976A-B1EA016B10E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Wild Zoo", "3.Wild Zoo\3.Wild Zoo.csproj", "{B72BF651-884F-48E8-A3C7-3DA043EA4B0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{510F0936-56DB-469D-976A-B1EA016B10E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{510F0936-56DB-469D-976A-B1EA016B10E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{510F0936-56DB-469D-976A-B1EA016B10E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72BF651-884F-48E8-A3C7-3DA043EA4B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72BF651-884F-48E8-A3C7-3DA043EA4B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72BF651-884F-48E8-A3C7-3DA043EA4B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72BF651-884F-48E8-A3C7-3DA043EA4B0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
